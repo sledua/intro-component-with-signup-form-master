@@ -109,6 +109,8 @@ h6 {
 /* unties  */
 .red {
   color: var(--clr-red);
+  text-decoration: none;
+  font-family: var(--ff-Poppins-Bold);
 }
 body {
   font-family: var(--ff-Poppins-Regular);
@@ -125,7 +127,7 @@ body {
 }
 .container {
   display: grid;
-  gap: 1rem;
+  gap: 3rem;
 }
 .form__desc {
   text-align: center;
@@ -157,9 +159,47 @@ body {
   padding: 1rem 1.8rem;
   font-size: 0.9rem;
   letter-spacing: 1.1px;
+  border-bottom: 3px #333 solid;
 }
 .form {
   background-color: #fff;
   color: var(--clr-dark-blue);
   border-radius: .5rem;
+  display: grid;
+  place-content: center;
+  gap: .9rem;
+  padding: 1.3rem 1.2rem;
+  border-bottom: 3px #333 solid;
+}
+.form__input > input {
+  width: 100%;
+  padding: .6rem .9rem;
+  border: 1px solid var(--clr-grayish-blue);
+  border-radius: .3rem;
+  color: var(--clr-blue);
+  font-family: var(--ff-Poppins-SemiBold);
+  outline: none;
+}
+.form__input > input:focus {
+  border-color: var(--clr-dark-blue);
+}
+.btn {
+  background-color: var(--clr-green);
+  font-family: var(--ff-Poppins-Medium);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-bottom: 2px #333 solid;
+  border-radius: .3rem;
+  padding: .6rem .9rem;
+}
+.form__view-desc {
+  align-self: center;
+  color: var(--clr-grayish-blue);
+  font-size: .7rem;
+  text-align: center;
+  justify-self: center;
+  width: 90%;
 }

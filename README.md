@@ -18,6 +18,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Overview
 
+- Mobile version complete.
+
 ### The challenge
 
 Users should be able to:
@@ -30,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
